@@ -1,0 +1,10 @@
+<div class="form">
+  <form #frm="ngForm" (ngSubmit)="onSubmit(frm.value)">
+  <input type="text" name="name" placeholder="Name" ngModel><br>
+  <input type="text" name="surname" placeholder="Surname" ngModel><br>
+  <input type="email" name="email" placeholder="Email" ngModel><br>
+  <textarea name="comment" id="comment" ngModel placeholder="Add a Comment"></textarea><br>
+  <button>Send</button>
+</form>
+</div>
+
